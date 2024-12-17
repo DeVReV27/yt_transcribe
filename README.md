@@ -1,13 +1,20 @@
 # YouTube Video Transcriber
 
-A Streamlit application that transcribes YouTube videos into text. This tool allows users to easily convert YouTube video audio into written text format.
+A Streamlit application that transcribes YouTube videos into text and allows users to rewrite/edit the transcriptions. This tool provides both automatic transcription and the ability to modify the generated text to improve clarity or accuracy.
 
 ## Features
 
 - YouTube video URL input
-- Automatic transcription
+- Automatic speech-to-text transcription
+- Text editing capabilities to modify and improve transcripts
 - Clean and user-friendly interface
 - Streamlit-based web application
+
+## Key Functionalities
+
+1. **Video Transcription**: Convert YouTube video audio into written text automatically
+2. **Transcript Editing**: Edit, rewrite, or refine the generated transcript
+3. **User-Friendly Interface**: Simple and intuitive design for easy interaction
 
 ## Installation
 
@@ -28,12 +35,15 @@ pip install -r requirements.txt
 
 ## Usage
 
-Run the Streamlit app:
+1. Run the Streamlit app:
 ```bash
 streamlit run app.py
 ```
 
-Then open your browser and navigate to the provided local URL (typically http://localhost:8501).
+2. Open your browser and navigate to the provided local URL (typically http://localhost:8501)
+3. Enter a YouTube video URL
+4. Wait for the transcription to complete
+5. Review and edit the transcript as needed
 
 ## Requirements
 
